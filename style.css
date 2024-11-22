@@ -109,7 +109,8 @@
     display: block;
     list-style: none;
     width:max-content
-    background-color: #132634;
+    background-color:  #132634;
+    z-index: 999;
 }
 
 
@@ -164,7 +165,7 @@ ul.sub-menu {
     bottom: 0px;
     left: 0;
     color: wheat;
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0,0, 0, .5);
     width: 100%;
 }
 
@@ -265,11 +266,14 @@ button.read {
     z-index:1;
 }
 
-button.read a {
+
+.featured-text-part>a>button {
     text-decoration: none;
     color: wheat;
     font-size: 17px;
 }
+
+
 
 button.read::after {
     content: ' ';
