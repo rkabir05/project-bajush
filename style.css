@@ -288,7 +288,60 @@ button.read:hover {
     box-shadow: 20px 0 100px gold, -20px 0 100px gold;
 }
 
+.all-news {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+}
 
+.all-news a {
+    text-decoration: none;
+    background: rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 7px #d4af37;
+    backdrop-filter: blur(10px);
+    border-radius: 13px;
+    padding: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.useful-news {
+    width: auto;
+    margin: auto;
+    height: auto;
+    background-image: url(images/useful-links-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.useful-text {
+    height: 5px;
+    width: 1200px;
+    color: wheat;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+
+.useful-link a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.useful-link nav ul {
+    list-style: none;
+    justify-content: space-between;
+}
 
 
 
