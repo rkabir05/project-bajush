@@ -108,9 +108,10 @@
     color: gold;
     display: block;
     list-style: none;
-    width:max-content
+    width:max-content;
     background-color:  #132634;
     z-index: 999;
+    padding: 5px;
 }
 
 
