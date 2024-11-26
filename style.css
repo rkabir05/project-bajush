@@ -433,21 +433,41 @@ button.btn: hover::before {
 
 .gold-rate-main {
     background-color: #132634;
+    background-image: url(images/gold-price-bg.jpg);
     width: auto;
     height: auto;
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-
+    padding: 21px;
 }
+
+.gold-text {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: gold;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 .gold-rate-box {
     margin: auto;
     width: 1200px;
     height: auto;
-    background-image: url(images/gold-price-bg.jpg);
     display: flex;
     justify-content: space-between;
+}
+
+
+.gold-read-more a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
 }
 
 
@@ -457,6 +477,12 @@ button.btn: hover::before {
     margin: auto;
     padding-top: 21px;
     padding-bottom: 20px;
+    border: 1px solid #404040;
+    box-sizing: border-box;
+    border-radius: 13px;
+    display: block;
+    backdrop-filter: blur(10px);
+    padding: 10px;
 }
 
 .gold-rate-part img {
@@ -482,8 +508,8 @@ button.btn: hover::before {
 
 .gold-rate-part h3 {
     padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 24px;
+    /* padding-bottom: 5px; */
+    /* font-size: 24px; */
 }
 
 
