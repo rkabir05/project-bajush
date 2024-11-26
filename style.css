@@ -314,7 +314,7 @@ button.read:hover {
 .useful-news {
     width: auto;
     margin: auto;
-    height: auto;
+    height: 225px;
     background-image: url(images/useful-links-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,7 +336,7 @@ button.read:hover {
 .useful-link a {
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 
@@ -347,13 +347,15 @@ button.read:hover {
 }
 
 
+
+
 .wellcome {
     width: auto;
     height: auto;
     background-image: url(images/about-us-bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -429,11 +431,67 @@ button.btn: hover::before {
 
 
 
+.gold-rate-main {
+    background-color: #132634;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.gold-rate-box {
+    margin: auto;
+    width: 1200px;
+    height: auto;
+    background-image: url(images/gold-price-bg.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gold-rate-part {
+    width: 20%;
+    height: auto;
+    margin: auto;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.gold-rate-part img {
+    max-width: 100%;
+}
+
+.gold-rate-part h3 {
+    color: gold;
+    text-align: center;
+    padding: 15p;
+}
+
+.gold-imgage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.gold-imgage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gold-rate-part h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+
 .footer-main {
     width: auto;
     height: auto;
     background:     #132634;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-bottom: 25px;
 }
 
@@ -518,3 +576,18 @@ button.btn: hover::before {
     border-bottom: 3px solid gold;
 }
 
+
+
+
+.bx-wrapper {
+    position: relative;
+    margin-bottom: 60px;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: none; 
+    border: none;
+    background: none;
+}
