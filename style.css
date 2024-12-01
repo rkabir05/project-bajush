@@ -625,3 +625,37 @@ button.btn: hover::before {
     border: none;
     background: none;
 }
+
+
+.ticker1 li {
+    position: relative;
+}
+
+.ticker1 li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+
+.ticker1 li:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    left:-20px ;
+    bottom: 5px;
+    border-radius: 50%;
+}
+
+.ticker-main {
+    background: black;
+    bottom: 0;
+}
+
+.ticker-main .bx-wrapper {
+    position: absolute;
+    margin-bottom: 0;
+}

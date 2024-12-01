@@ -337,10 +337,24 @@ Although the Bangladesh Jeweller's Association started its activities to transfo
                 </div>
                 <h3>8087 BDT/GRAM</h3>
             </div>
-
         </div>
      </div>
      <!--gold-rate-main end-->
+
+     <!--ticker-main start-->
+     <div class="ticker-main">
+        <ul class="ticker1">
+            <li><a href="#">২১ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম স্বর্ণের মূল্য : ১১২৩১/-</a></li>
+            <li><a href="#">১৮ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম রূপার মূল্য : ১৮১/-</a></li>
+            <li><a href="#">সনাতন পদ্ধতির প্রতি গ্রাম স্বর্ণের মূল্য : ৭৮৯৯/-</a></li>
+            <li><a href="#">২২ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম স্বর্ণের মূল্য : ১১৭৬৫/-</a></li>
+            <li><a href="#">২১ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম স্বর্ণের মূল্য : ১১২৩১/-</a></li>
+            <li><a href="#">১৮ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম স্বর্ণের মূল্য : ৯৬২৭/-</a></li>
+            <li><a href="#">২২ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম রূপার মূল্য : ২২১/-</a></li>
+            <li><a href="#">২১ ক্যা: ক্যাডমিয়াম (হলমার্ককৃত) প্রতি গ্রাম রূপার মূল্য : ২১০/--</a></li>
+        </ul>
+    </div>
+    <!--ticker-main end-->
 
     <!--footer-main start-->
     <div class="footer-main">
@@ -386,18 +400,24 @@ Although the Bangladesh Jeweller's Association started its activities to transfo
                 captions: true,
                 auto: true
                 });
+
+            $('.useful-link').bxSlider({
+                minSlides: 2,
+                maxSlides: 6,
+                slideWidth: 165,
+                slideMargin: 5,
+                auto: true,
             });
-    </script>
 
-
-    <script>
-        $('.useful-link').bxSlider({
-            minSlides: 2,
-            maxSlides: 6,
-            slideWidth: 165,
-            slideMargin: 5,
-            auto: true,
-            
+            $('.ticker1').bxSlider({
+                minSlides: 4,
+                maxSlides: 4,
+                slideWidth: 'auto',
+                slideMargin: 40,
+                ticker: true,
+                speed: 30000,
+                tickerHover: true,
+            });
         });
     </script>
 </body>
