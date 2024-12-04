@@ -207,7 +207,7 @@ ul.sub-menu {
     border-radius: 14px;
     overflow: hidden;
     position: relative;
-    background: #b9a5a5;
+    /* background: #b9a5a5; */
 }
 
 .featured-image img {
@@ -215,10 +215,9 @@ ul.sub-menu {
 }
 
 .featured-image {
-    width: 100%;
-    height: 269px;
+    width: auto;
+    height: auto;
 }
-
 
 .featured-text {
     width: 1200px;
@@ -235,11 +234,11 @@ ul.sub-menu {
 
 .featured-text-part {
     position: absolute;
-    bottom: 22px;
-    background-color: rgba(0,0,0, .5);
+    bottom: 5px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -55.1%, #000 100%);
     width: 100%;
     text-align: left;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     padding-left: 13px;
     padding-bottom: 8px;
@@ -253,11 +252,15 @@ ul.sub-menu {
     padding-top: 15px;
 }
 
+.featured-text-part a {
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 
 .featured-text-part h2 {
-    margin-bottom: 22px;
+    margin-bottom: 10px;
 }
 
 
@@ -282,6 +285,13 @@ button.read {
     font-size: 17px;
 }
 
+.home-latest-news .news-row .title-area .read-more {
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    text-decoration: none;
+}
 
 
 button.read::after {
@@ -290,6 +300,10 @@ button.read::after {
     height: 107%;
     width: 102%;
     border-radius: 1000px;
+    box-shadow: 0px 0px 7px #d4af37;
+    padding: 0;
+    color: #fff;
+    background: rgba(0,0,0,.3);
 }
 
 button.read:hover {
@@ -632,7 +646,7 @@ button.btn: hover::before {
 }
 
 .ticker1 li a {
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color: gold;
     font-weight: bold;
@@ -652,10 +666,10 @@ button.btn: hover::before {
 
 .ticker-main {
     background: black;
+    position: fixed;
     bottom: 0;
 }
-
-.ticker-main .bx-wrapper {
-    position: absolute;
-    margin-bottom: 0;
+.ticker-main .bx-wrapper{
+    margin: 0;
 }
+
