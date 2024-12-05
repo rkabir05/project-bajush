@@ -720,12 +720,6 @@ button.btn: hover::before {
 }
 
 
-.aboutus-image {
-    /* background-image: url(images/about-us.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: auto;
-    margin: auto;
-    z-index: 99999; */
+.aboutus-image img {
+    width: 100%;
 }
