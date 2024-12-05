@@ -673,3 +673,59 @@ button.btn: hover::before {
     margin: 0;
 }
 
+
+
+
+.aboutus-text {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: gold;
+
+}
+
+.aboutus-text h1 {
+    font-size: 71px;
+}
+
+.aboutus-details {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    background: white;
+    padding: 70px;
+    text-align: justify;
+}
+
+.aboutus-details p {
+    font-size: 25px;
+}
+
+.aboutus-text h1 {
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.aboutus-details h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aboutus-details h3 {
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 22px;
+}
+
+
+.aboutus-image {
+    /* background-image: url(images/about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    margin: auto;
+    z-index: 99999; */
+}
