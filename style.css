@@ -727,3 +727,73 @@ button.btn: hover::before {
 .aboutus-image img {
     width: 100%;
 }
+
+
+.member-list-text {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 26px;
+    color: gold;
+}
+
+.member-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+    padding: 20px 7px;
+}
+
+.member-table {
+    height: auto;
+    margin: auto;
+    width: 1200px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.table-01 tr:nth-child(odd) {
+    background: wheat;
+}
+
+
+table.table-01 {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+
+table.table-01 th {
+    padding: 10px 4px;
+}
+
+table.table-01 td {
+    padding: 15px 4px;
+    border-bottom: 1px solid black;
+}
+
+table.table-01 th {
+    background: #212529;
+    color: wheat;
+}
+
+table.table-01 a {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    background: #212529;
+    width: 187px;
+    color: wheat;
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px;
+}
