@@ -797,3 +797,120 @@ table.table-01 a {
     padding: 5px;
     border-radius: 30px;
 }
+
+
+.become-a-member {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.become-a-member a {
+    text-decoration: none;
+    color: black;
+}
+
+.information-part-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+input.member-file {
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    padding: 6px;
+}
+
+h2 {}
+
+.company-information h2 {
+    margin-bottom: 15px;
+}
+
+.information-part-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+select#Division {}
+
+select#Division {}
+
+.division-inf form-select {
+    width: 100%;
+}
+
+.division-inf {
+    width: 30%;
+}
+
+
+select#Division {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+select#District {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input.member-upizila {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.company-file-atach {
+    margin-bottom: 16px;
+    margin-top: 11px;
+}
+
+
+.information-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input.member-file-box {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.information-part-2 {
+    width: 30%;
+}
+
+.information-part-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.from-check p {
+    opacity: 0.3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+button.btn-submit {
+    font-size: 15px;
+    color: black;
+    background: green;
+}

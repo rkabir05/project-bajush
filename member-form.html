@@ -102,39 +102,39 @@
     <!--become-a-member end-->
 
     <!--member form start-->
-    <div class="information-part-1">
+    <div class="information-part-main">
         <div class="name-bangla">
             <form action="#">
                 <label for="form-label" class="form-label">নাম (বাংলা)</label>
-                <input type="text" name="name-english" class="name-bangla-box" placeholder="নাম">
+                <input type="text" name="name-english" class="member-file" placeholder="নাম">
             </form>
         </div>
 
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">নাম (English)</label>
-                <input type="text" name="name-english" class="name-english-box" placeholder="নাম (English)">
+                <input type="text" name="name-english" class="member-file" placeholder="নাম (English)">
             </form>
         </div>
 
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">জাতীয় পরিচয়পত্র নম্বর</label>
-                <input type="text" name="nid" class="nid-no" placeholder="জাতীয় পরিচয়পত্র নম্বর">
+                <input type="text" name="nid" class="member-file" placeholder="জাতীয় পরিচয়পত্র নম্বর">
             </form>
         </div>
 
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">পিতা/স্বামীর নাম</label>
-                <input type="text" name="fathers-name" class="fathers-name" placeholder="পিতা/স্বামীর নাম">
+                <input type="text" name="fathers-name" class="member-file" placeholder="পিতা/স্বামীর নাম">
             </form>
         </div>
 
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">মোবাইল নম্বর</label>
-                <input type="text" name="mobile-no" class="mobile-no" placeholder="মোবাইল নম্বর">
+                <input type="text" name="mobile-no" class="member-file" placeholder="মোবাইল নম্বর">
             </form>
         </div>
 
@@ -142,7 +142,7 @@
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">ই-মেইল</label>
-                <input type="text" name="email" class="email" placeholder="ই-মেইল">
+                <input type="text" name="email" class="member-file" placeholder="ই-মেইল">
             </form>
         </div>
 
@@ -154,11 +154,11 @@
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">প্রতিষ্ঠানের নাম (English)</label>
-                <input type="text" name="company-information" class="company-information" placeholder="প্রতিষ্ঠানের নাম (English)">
+                <input type="text" name="company-information" class="member-file" placeholder="প্রতিষ্ঠানের নাম (English)">
             </form>
         </div>
 
-        <div class="information-part-2">
+        <div class="information-part-4">
             <div class="division-inf">
                 <form action="#">
                     <label for="form-label" class="form-label" >বিভাগ</label>
@@ -178,7 +178,7 @@
             <div class="division-inf">
                 <form action="#">
                     <label for="form-label" class="form-label" >জেলা</label>
-                    <select name="Select District" class="form-select" id="District" onchange="Districtlist">
+                    <select name="Select District" class="member-file" id="District" onchange="Districtlist">
                         <option value="Select District">Select Division</option>
                         <option value="Dhaka">Dhaka</option>
                         <option value="Madaripur">Dhaka</option>
@@ -221,7 +221,7 @@
                     <div class="information-part-1">
                         <form action="#">
                             <label for="form-label" class="form-label">উপজেলা/থানা</label>
-                            <input type="text" name="ps" class="ps" placeholder="উপজেলা/থানা">
+                            <input type="text" name="ps" class="member-upizila" placeholder="উপজেলা/থানা">
                         </form>
                     </div>
             </div>
@@ -230,24 +230,105 @@
         <div class="information-part-1">
             <form action="#">
                 <label for="form-label" class="form-label">টেলিফোন নম্বর</label>
-                <input type="text" name="Teliphone" class="Teliphone" placeholder="টেলিফোন নম্বর">
+                <input type="text" name="Teliphone" class="member-file" placeholder="টেলিফোন নম্বর">
             </form>
         </div>
 
         <div class="information-part-3">
             <form action="#">
                 <label for="form-label" class="form-label">ভ্যাট রেজিষ্ট্রেশন নম্বর</label>
-                <input type="text" name="tin" class="tin" placeholder="ভ্যাট রেজিষ্ট্রেশন নম্বর">
+                <input type="text" name="tin" class="member-file" placeholder="ভ্যাট রেজিষ্ট্রেশন নম্বর">
             </form>
         </div>
 
         <div class="information-part-3">
             <form action="#">
                 <label for="form-label" class="form-label">টিআইএন নম্বর</label>
-                <input type="text" name="tin" class="tin" placeholder="টিআইএন নম্বর">
+                <input type="text" name="tin" class="member-file" placeholder="টিআইএন নম্বর">
             </form>
         </div>
 
+        <div class="company-file-atach">
+            <h2>নথি সংযুক্ত করুন</h2>
+        </div>
+
+        <!--information-box start-->
+        <div class="information-box">
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">ট্রেড লাইসেন্স</label>
+                    <input type="file" name="trade-license" class="member-file-box">
+                </form>
+            </div>
+    
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">পাসপোর্ট সাইজ ছবি</label>
+                    <input type="file" name="image" class="member-file-box">
+                </form>
+            </div>
+    
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">জাতীয় পরিচয়পত্র</label>
+                    <input type="file" name="nid" class="member-file-box">
+                </form>
+            </div>
+    
+        </div>
+
+        <div class="information-box">
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">টিআইএন</label>
+                    <input type="file" name="tin" class="member-file-box">
+                </form>
+            </div>
+    
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">ভ্যাট রেজিস্ট্রেশন</label>
+                    <input type="file" name="vat" class="member-file-box">
+                </form>
+            </div>
+    
+    
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">ভিজিটিং কার্ড</label>
+                    <input type="file" name="v-card" class="member-file-box">
+                </form>
+            </div>
+        </div>
+
+        <div class="information-box">
+            <div class="information-part-2">
+                <form action="#">
+                    <label for="form-label" class="form-label">অংশীদারী/লিমিটেড কোম্পানীর ক্ষেত্রে রেজুলেশন</label>
+                    <input type="file" name="company-file" class="member-file-box">
+                </form>
+            </div>
+    
+
+        </div>
+        <!--information-box end-->
+
+        <div class="information-part-2">
+            <form action="#">
+                <label for="form-label" class="form-label">অঙ্গীকার *</label>
+            </form>
+        </div>
+        <div class="from-check">
+            <p>
+            আমি বাংলাদেশ জুয়েলার্স সমিতি-বাজুসের আদর্শ, উদ্দেশ্য ও নীতিমালা মেনে নিয়ে গঠনতন্ত্র মোতাবেক সকল নিয়ম ও নির্দেশনা মেনে চলতে বাধ্য থাকব বলে অঙ্গীকারবদ্ধ হয়ে সদস্য হবার জন্য আবেদন করছি। বাজুস কর্তৃক প্রণীত সকল নিয়ম-কানুন সর্বদা মেনে চলব। এর ব্যত্যয় ঘটলে বাজুস যে সিদ্ধান্ত গ্রহণ করবে তা মেনে নিতে বাধ্য থাকব। আমাকে/আমার প্রতিষ্ঠানকে বাজুসের সদস্যভূক্ত করে বাধিত করবেন।</p>
+
+        </div>
+
+        <div class="information-part-2">
+            <button type="submit" class="btn-submit">submit</button>
+        </div>
+
+        
     </div>
     <!--become-a-member end-->
 
