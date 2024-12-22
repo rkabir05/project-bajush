@@ -851,18 +851,21 @@ select#Division {
     width: 100%;
     margin-bottom: 10px;
     margin-top: 5px;
+    padding: 8px 0;
 }
 
 select#District {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
+    padding: 8px 0;
 }
 
 input.member-upizila {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 10px;
+    padding: 8px 0;
 }
 
 
@@ -880,10 +883,14 @@ input.member-upizila {
 
 input.member-file-box {
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #198754;
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 5px;
+    background-image: url(images/agree.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
 }
 
 .information-part-2 {
@@ -906,9 +913,14 @@ input.member-file-box {
 
 
 button.btn-submit {
-    font-size: 15px;
-    color: black;
     background: green;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    color: wheat;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
 
 .policy {
@@ -962,4 +974,10 @@ table.table-file th {
 
 table.table-file {
     border-collapse: collapse;
+}
+
+.from-check {
+    opacity: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
