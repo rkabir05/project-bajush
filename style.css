@@ -116,10 +116,11 @@ body {
     color: gold;
     display: block;
     list-style: none;
-    width:max-content;
-    background-color:  #132634;
+    width: max-content;
+    background-color: #132634;
     z-index: 999;
-    padding: 5px;
+    padding: 10px;
+    min-width: 141px;
 }
 
 
@@ -895,6 +896,7 @@ input.member-file-box {
 
 .information-part-2 {
     width: 30%;
+    flex-wrap: wrap;
 }
 
 .information-part-4 {
@@ -980,4 +982,14 @@ table.table-file {
     opacity: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+label.form-label {
+    width: 100%;
+    display: block;
+}
+
+button.btn-submit:hover {
+    background: red;
+    transition: all .5s;
 }
