@@ -673,7 +673,10 @@ button.btn: hover::before {
     position: fixed;
     bottom: 0;
     padding: 5px;
+    z-index: 999;
 }
+
+
 .ticker-main .bx-wrapper{
     margin: 0;
 }
@@ -993,3 +996,114 @@ button.btn-submit:hover {
     background: red;
     transition: all .5s;
 }
+
+.committee-persident {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.persident-pic {
+    width: 30%;
+}
+
+.persident-pic img {
+    max-width:100%;
+}
+
+.persident-details {
+    width: 65%;
+    background-color: #132634;
+    color: #fff;
+    padding: 39px;
+}
+
+.central-committiee {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 28px;
+    font-size: 28px;
+    text-align: center;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.commitee-member {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.committee-file {
+    width: 22%;
+    height: auto;
+    border: 1px solid #132634;
+    border-radius: 10px;    
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.committee-file img {
+    width: 100%;
+}
+
+.committee-file a {
+    text-decoration: none;
+}
+
+
+
+h2.commitee-description {
+    color: white;
+    color: white;
+}
+
+h2.commitee-name {
+    color: gold;
+    text-align: center;
+}
+
+.comittee-text {
+    text-align: center;
+    background-color: #132634;
+    padding: 10px;
+}
+
+
+h2.commitee-description {
+    margin-bottom: 10px;
+}
+
+.persident-details p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.persident-details h1 {
+    font-size: 44px;
+    margin-bottom: 15px;
+    color: gold;
+}
+
+.persident-details h2 {
+    color: gold;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.persident-details h3 {
+    color: gold;
+    font-size: 25px;
+}
+
+
+
